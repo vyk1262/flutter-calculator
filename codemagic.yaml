@@ -5,4 +5,4 @@ workflows:
     instance_type: mac_mini_m1
     scripts:
       - flutter packages get
-      - flutter build apk --release
+      - flutter build ios --release
